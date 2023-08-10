@@ -3,6 +3,7 @@ function updateHSCountryInputToSelect() {
   const parentDiv = inputElement.parentElement;
   const selectElement = document.createElement("select");
   selectElement.name = "country";
+  console.log("Ran input to select for Country updater");
 
   const hqCountryOptions = [
     { label: "Please Select", value: "" },
